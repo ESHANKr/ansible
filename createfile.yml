@@ -6,4 +6,4 @@
        copy:
         dest: /root/devop_directory/file1.txt
         content:
-          append data successfully!
+          append successfully!
