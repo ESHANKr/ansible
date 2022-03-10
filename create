@@ -1,6 +1,0 @@
----
-  - hosts: all
-    become:truey
-    tasks:
-      -name: creating a folder
-       file: path=/root/ 
