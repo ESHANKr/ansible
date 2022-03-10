@@ -1,0 +1,4 @@
+---
+ - name: Memory
+   win_command: systeminfo
+   register: memory_results  

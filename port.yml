@@ -1,0 +1,7 @@
+---
+- hosts: managednode1
+  tasks:
+    - wait_for: host=root port=8080 timeout=1
+    - debug: msg=ok
+~
+

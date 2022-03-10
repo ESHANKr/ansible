@@ -1,0 +1,8 @@
+---
+- hosts: all
+  become: true
+  tasks:
+    - name: Creating a file
+      file: path=/root/devops_directory/file1.txt state=touch
+      
+

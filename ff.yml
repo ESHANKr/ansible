@@ -1,0 +1,7 @@
+---
+- name: Role demo
+  hosts: all
+  tasks:
+   - name: Inculde Role
+     include_role:
+      name: test_roles

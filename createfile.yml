@@ -1,0 +1,9 @@
+---
+ - hosts: all
+   become: true
+   tasks:
+     - name: create a file inside devop_directory and adding content in it
+       copy:
+        dest: /root/devop_directory/file1.txt
+        content:
+          append data successfully!

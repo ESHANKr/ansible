@@ -1,0 +1,15 @@
+---
+  - name: installing httpd server
+    hosts: all
+    become: no
+    gather_facts: yes
+
+    tasks:
+      - name: install httpd
+        yum:
+          name: httpd
+          state: latest
+      - name: display date
+        debug:
+         var=ansible_date_time.date
+
