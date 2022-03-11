@@ -1,0 +1,6 @@
+---
+# tasks file for direc
+- name: ansible create directory
+  file:
+    path: /root/dev
+    state: directory

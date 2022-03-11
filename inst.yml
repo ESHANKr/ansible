@@ -1,0 +1,8 @@
+---
+- name: install
+  hosts: localhost 
+  tasks:
+   - name: Inculde Role
+     include_role:
+      name: installservice
+
